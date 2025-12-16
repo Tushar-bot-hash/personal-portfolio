@@ -1,76 +1,104 @@
+Markdown
+
 <h2 align="center">
-  Portfolio Website - v2.0<br/>
-  <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>
+  ✨ Tushar's Professional Portfolio ✨<br/>
+  <a href="https://github.com/Tushar-bot-hash/personal-portfolio" target="_blank">View Live Site</a>
 </h2>
+
 <div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
+  <img alt="Portfolio Demo" src="./Images/readme-img1.png" width="800px" />
 </div>
 
 <br/>
 
-<center>
+<p align="center">
+  <img src="https://forthebadge.com/images/badges/built-with-love.svg" />
+  <img src="https://forthebadge.com/images/badges/made-with-javascript.svg" />
+  <img src="https://forthebadge.com/images/badges/using-bootswatch.svg" />
+</p>
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
-![GitHub Repo stars](https://img.shields.io/github/stars/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge) &nbsp;
-![GitHub forks](https://img.shields.io/github/forks/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge)
+<p align="center">
+  <img src="https://img.shields.io/github/stars/Tushar-bot-hash/personal-portfolio?color=purple&style=for-the-badge&logo=github" />
+  <img src="https://img.shields.io/github/forks/Tushar-bot-hash/personal-portfolio?color=purple&style=for-the-badge&logo=github" />
+</p>
 
-</center>
+---
 
-<h3 align="center">
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Request Feature</a>
-</h3>
+## 🚀 Overview
 
-## TL;DR
+Welcome to my personal portfolio! This project serves as a central hub to showcase my technical skills, academic background, and recent full-stack developments. Built with a focus on **performance**, **responsiveness**, and **clean UI**.
 
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). Thanks!
+### 🌟 Key Features
+- **Modern UI/UX**: Designed with React-Bootstrap and custom CSS.
+- **Dynamic Content**: Fetches live GitHub contribution data via API.
+- **Optimized Performance**: Achieved high Lighthouse scores through efficient asset management.
+- **Fully Responsive**: Seamless experience across mobile, tablet, and desktop.
+- **Project Showcases**: Includes interactive cards for my AI Image Generator and E-Commerce platforms.
 
-## Built With
+---
 
-My personal portfolio <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
+## 🛠️ Built With
 
-This project was built using these technologies.
+This project utilizes a modern frontend stack to ensure speed and scalability:
 
-- React.js
-- Node.js
-- Express.js
-- CSS3
-- VsCode
-- Vercel
+- **Frontend**: [React.js](https://reactjs.org/) (v17+)
+- **Styling**: [React-Bootstrap](https://react-bootstrap.github.io/) & [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- **Icons**: [React Icons](https://react-icons.github.io/react-icons/)
+- **Animation**: [Framer Motion](https://www.framer.com/motion/) & [Typewriter Effect](https://www.npmjs.com/package/typewriter-effect)
+- **Deployment**: [Vercel](https://vercel.com/) / [GitHub Pages](https://pages.github.com/)
 
-## Features
+---
 
-**📖 Multi-Page Layout**
+## 📂 Project Structure
 
-**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
+```text
+src/
+├── Assets/             # Images and Logos
+├── components/         # Reusable UI Components (Navbar, Footer, etc.)
+│   ├── About/          # About Me & GitHub Calendar
+│   ├── Home/           # Hero Section & Intro
+│   ├── Projects/       # Project Gallery & Cards
+│   └── Resume/         # Resume Viewer
+└── App.js              # Main Routing Logic
 
-**📱 Fully Responsive**
+💻 Getting Started
+Prerequisites
 
-## Getting Started
+    Node.js: v14.x or higher
 
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
+    npm: v6.x or higher
 
-## 🛠 Installation and Setup Instructions
+Installation
 
-1. Installation: `npm install`
+    Clone the repository
+    Bash
 
-2. In the project directory, you can run: `npm start`
+git clone [https://github.com/Tushar-bot-hash/personal-portfolio.git](https://github.com/Tushar-bot-hash/personal-portfolio.git)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.
+Install dependencies
+Bash
 
-## Usage Instructions
+npm install
 
-Open the project folder and Navigate to `/src/components/`. <br/>
-You will find all the components used and you can edit your information accordingly.
+Start the development server
+Bash
 
-### Show your support
+    npm start
 
-Give a ⭐ if you like this website!
+    The site will open at http://localhost:3000
 
-<a href="https://www.buymeacoffee.com/soumyajit4419" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
+🤝 Contributing
+
+If you'd like to use this template for your own portfolio:
+
+    Fork the repository.
+
+    Customize the files in src/components/ with your info.
+
+    Star the repo if you found it helpful! ⭐️
+
+📬 Contact
+
+Tushar - GitHub Profile
+
+Feel free to reach out via GitHub issues for any bugs or feature requests!

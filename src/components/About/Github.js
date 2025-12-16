@@ -15,11 +15,12 @@ function Github() {
         Days I <strong className="purple">Code</strong>
       </h1>
       <GitHubCalendar
-        username="soumyajit4419"
-        blockSize={30}
-        blockMargin={10}
+        username="Tushar-bot-hash"
+        // REDUCED BLOCKSIZE TO RESOLVE CSP ERROR
+        blockSize={15} 
+        blockMargin={5}
         color="#c084f5"
-        fontSize={20}
+        fontSize={16} // Reduced font size to fit the smaller block size
       />
     </Row>
   );

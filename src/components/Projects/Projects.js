@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+
+// NOTE: Make sure these image files exist in src/Assets/Projects/ with these exact names
+import ecommerceImg from "../../Assets/Projects/Screenshot 2025-12-16 110025.png";
+import aiGeneratorImg from "../../Assets/Projects/Screenshot 2025-12-16 110125.png";
+import portfolioImg from "../../Assets/Projects/Screenshot 2025-12-16 110200.png";
+
 
 function Projects() {
   return (
@@ -21,72 +21,51 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          
+          {/* Project 1: E-Commerce Platform */}
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={ecommerceImg}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Full-Stack E-Commerce Platform (MERN)"
+              description="A robust, full-stack merchandise platform built with the MERN stack. Features include secure user authentication (JWT), handling 1,000+ product operations, and optimized REST APIs for 40% faster page load speeds. Implemented responsive design for seamless user engagement."
+              // 🛑 UPDATE THIS LINK
+              ghLink="https://github.com/Tushar-bot-hash/MERN-Ecommerce"
+              // 🛑 UPDATE THIS LINK
+              demoLink="[YOUR ANIME E-COMMERCE LIVE URL HERE]"
             />
           </Col>
 
+          {/* Project 2: AI Image Generator */}
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={aiGeneratorImg}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="AI Image Generator with API Integration"
+              description="Engineered a real-time platform integrating a third-party AI API (e.g., Pollination). Features asynchronous job processing with live progress tracking, enabling creation of 500+ images/day. Optimized API calls to reduce response failures by 30%."
+              // 🛑 UPDATE THIS LINK
+              ghLink="https://github.com/Tushar-bot-hash/AI-Image-Generator"
+              // 🛑 UPDATE THIS LINK
+              demoLink="https://ai-image-generator-blond-sigma.vercel.app/"
             />
           </Col>
 
+          {/* Project 3: Portfolio Website (This Project) */}
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={portfolioImg}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Personal Portfolio Website (React)"
+              description="My professional portfolio showcasing technical skills, projects, and educational background. Optimized for performance (99% Lighthouse score) using React, Vercel deployment, and integrated GitHub statistics/analytics."
+              // 🛑 UPDATE THIS LINK
+              ghLink="https://github.com/Tushar-bot-hash/Portfolio"
+              // 🛑 UPDATE THIS LINK
+              demoLink="[YOUR PORTFOLIO LIVE URL HERE]"
             />
           </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-            />
-          </Col>
+          
+          {/* If you have more projects, you can add them here */}
+          
         </Row>
       </Container>
     </Container>

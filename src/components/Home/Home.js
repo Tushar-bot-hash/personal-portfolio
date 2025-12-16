@@ -30,7 +30,8 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> SOUMYAJIT BEHERA</strong>
+                {/* YOUR NAME UPDATED HERE */}
+                <strong className="main-name"> T TUSHAR</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
@@ -61,37 +62,41 @@ function Home() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  // YOUR GITHUB LINK
+                  href="https://github.com/Tushar-bot-hash"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour  home-social-icons"
                 >
                   <AiFillGithub />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  // Placeholder: Replace with your Twitter/X profile URL
+                  href="[YOUR TWITTER URL HERE]" 
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour  home-social-icons"
                 >
                   <AiOutlineTwitter />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  // YOUR LINKEDIN LINK
+                  href="https://www.linkedin.com/in/t-tushar-3906862bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  // Placeholder: Replace with your Instagram profile URL
+                  href="[YOUR INSTAGRAM URL HERE]"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
